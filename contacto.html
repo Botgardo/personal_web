@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Mi Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="trabajos.html" class="nav-link">Trabajos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sobre-mi.html" class="nav-link">Sobre Mí</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contacto.html" class="nav-link active">Contacto</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contacto</h1>
+                <p>¡Hablemos sobre tu próximo proyecto!</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>Información de Contacto</h2>
+                        <p>
+                            ¿Tienes una idea para un proyecto? ¿Necesitas ayuda con el desarrollo web? 
+                            Me encantaría escuchar de ti. Puedes contactarme a través de cualquiera de 
+                            los siguientes medios.
+                        </p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Email</h3>
+                                    <p>edgardo.valle2005@gmail.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Teléfono</h3>
+                                    <p>+52 (646) 142-5700</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Ubicación</h3>
+                                    <p>Ensenada, México</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Horario</h3>
+                                    <p>Lun - Vie: 9:00 - 18:00</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-contact">
+                            <h3>Sígueme en Redes Sociales</h3>
+                            <div class="social-links">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span>LinkedIn</span>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-github"></i>
+                                    <span>GitHub</span>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-twitter"></i>
+                                    <span>Twitter</span>
+                                </a>
+                                <!-- <a href="#" class="social-link">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm" action="https://formspree.io/f/mkgqorav" method="POST">
+                            <h2>Enviar Mensaje</h2>
+                            
+                            <div class="form-group">
+                                <label for="name">Nombre Completo</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Asunto</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-paper-plane"></i>
+                                Enviar Mensaje
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="map-section">
+            <div class="container">
+                <h2>¿Dónde Encontrarme?</h2>
+                <div class="map-placeholder">
+                    <i class="fas fa-map"></i>
+                    <p>Mapa interactivo de ubicación</p>
+                    <small>Puedes integrar Google Maps aquí</small>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="cta-contact">
+            <div class="container">
+                <h2>¿Listo para Empezar?</h2>
+                <p>Si tienes un proyecto en mente, no dudes en contactarme. Estoy aquí para ayudarte a hacer realidad tus ideas.</p>
+                <div class="cta-buttons">
+                    <a href="mailto:edgardo.valle2005@gmail.com" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i>
+                        Enviar Email
+                    </a>
+                    <a href="tel:+526461426384" class="btn btn-secondary">
+                        <i class="fas fa-phone"></i>
+                        Llamar Ahora
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- <div class="footer-section">
+                    <h3>Mi Portfolio</h3>
+                    <p>Creando experiencias digitales excepcionales</p>
+                </div> -->
+                <!-- <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="trabajos.html">Trabajos</a></li>
+                        <li><a href="sobre-mi.html">Sobre Mí</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div> -->
+                <div class="footer-section">
+                    <!-- <h3>Redes Sociales</h3> -->
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Edgardo Valle. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+      <script>
+  // Formulario de contacto
+document.addEventListener('DOMContentLoaded', function() {
+    const contactForm = document.getElementById('contactForm');
+    
+    if (contactForm) {
+        contactForm.addEventListener('submit', async function(e) { // 👈 aquí añadí async
+            e.preventDefault();
+            
+            // Obtener datos del formulario
+            const formData = new FormData(contactForm);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const subject = formData.get('subject');
+            const message = formData.get('message');
+            
+            // Validación básica
+            if (!name || !email || !subject || !message) {
+                showMessage('Por favor, completa todos los campos.', 'error');
+                return;
+            }
+            
+            if (!isValidEmail(email)) {
+                showMessage('Por favor, ingresa un email válido.', 'error');
+                return;
+            }
+            
+            try {
+                 const res = await fetch(contactForm.action, {
+                    method: 'POST',
+                    body: formData, // 👈 directamente formData
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+
+                if (res.ok) {
+                    showMessage('¡Mensaje enviado correctamente! Te contactaré pronto.', 'success');
+                    contactForm.reset();
+                } else {
+                    showMessage('Hubo un error al enviar el mensaje. Revisa la consola Network/Response.', 'error');
+                }
+            } catch (err) {
+                console.error('Error en fetch:', err);
+                showMessage('Error de red: ' + (err.message || err), 'error');
+            }
+        });
+    }
+});
+
+  </script>
+
+  
+</body>
+</html>
